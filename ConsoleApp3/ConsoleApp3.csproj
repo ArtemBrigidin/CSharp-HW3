@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Device\Device.csproj" />
+    <ProjectReference Include="..\Money\Money.csproj" />
+    <ProjectReference Include="..\Nuke\Nuke.csproj" />
+    <ProjectReference Include="..\Product\Product.csproj" />
+    <ProjectReference Include="..\Violin\Violin.csproj" />
+    <ProjectReference Include="..\Worker\Worker.csproj" />
+  </ItemGroup>
+
+</Project>
